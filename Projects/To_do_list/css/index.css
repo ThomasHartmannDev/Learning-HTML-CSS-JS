@@ -1,0 +1,99 @@
+body{
+    background-color: #222831
+}
+.write_input{
+    height: 3vh;
+    background-color: #222831;
+    text-align: center;
+    width: 85%;
+    border-radius: 40px;
+    padding: 6px;
+    margin-right: 10px;
+    
+}
+
+.title{
+    width: 50%;
+    height:5vh;
+    margin: auto;
+    margin-top: 5vh;
+    text-align: center;
+    font-family: fantasy;
+    font-size: x-large;
+    line-height: 5vh;
+    color: whitesmoke;
+    font-size: 5vh;
+}
+
+.blocklist{
+    background-color: #393E46;
+    width: 50%;
+    height:85vh;
+    margin: auto;
+    margin-top: 2vh;
+    line-height: 5vh;
+    font-size: 5vh;
+    border-radius: 30px;
+}
+
+.input_div{
+    /*background-color: aqua; */
+    padding-top: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.contentlist{
+    background-color: rgb(19, 128, 223);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.itencontent{
+    display: flex;
+    width: 90%;
+    font-size: 20px;
+    padding: auto;
+}
+.Check{
+    margin: 8px;
+    align-items: left;
+    width: 10%;
+    height: 1px;
+    background-color: #00ADB5;
+}
+
+/* CSS */
+.button-1 {
+  background-color: #00ADB5;
+  border-radius: 20px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #EEEEEE;
+}

@@ -9,6 +9,7 @@ body{
     border-radius: 40px;
     padding: 6px;
     margin-right: 10px;
+    color: aliceblue;
     
 }
 
@@ -31,9 +32,9 @@ body{
     height:85vh;
     margin: auto;
     margin-top: 2vh;
-    line-height: 5vh;
     font-size: 5vh;
     border-radius: 30px;
+    overflow-y: scroll;
 }
 
 .input_div{
@@ -47,23 +48,30 @@ body{
 }
 
 .contentlist{
-    background-color: rgb(19, 128, 223);
+    background-color: #222831;
     border-radius: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px 10px auto 10px;
 }
 .itencontent{
     display: flex;
     width: 90%;
-    font-size: 20px;
-    padding: auto;
+    font-size: 18px;
+    color: aliceblue;
+    
+}
+.textContent{
+    display: flex;
+    font-size: 14px;
+    text-align: left;
+    color: whitesmoke;
 }
 .Check{
-    margin: 8px;
-    align-items: left;
-    width: 10%;
-    height: 1px;
-    background-color: #00ADB5;
+    display: flex;
+    /*
+    width: 15%;
+    height: 15%;
+    */
+    margin: auto 15px auto 10px;
 }
 
 /* CSS */
